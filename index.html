@@ -3,14 +3,87 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>My EWU Portal</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="js/jquery.js" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+
+    <!-- Page Wrap -->
+    <div class="pagewrap">
+  
+    <!-- Nav Bar -->
+    <div class="fixed">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">My EWU Portal</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+      <section class="top-bar-section">
+    <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="large-8 columns">
+                <input class="searchinput" type="text" placeholder="Need Help?">
+              </div>
+              <div class="large-4 columns">
+                <a href="#" class="alert button expand">Search</a>
+              </div>
+
+            </div>
+          </li>
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a href="#">Welcome, Colin Manikoth</a>
+        <ul class="dropdown">
+          <li><a href="#">Logout</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Grades</a></li>
+          <li><a href="#">Assignments</a></li>
+          <li><a href="#">Charges & Fees</a></li>
+        </ul>
+          </li>
+        </ul>
+      
+        </section>
+      </nav>
+    </div>
+    <!-- End Nav Bar -->
     
+
+      <!-- Login Form -->
+        <div class="large-4 columns">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <form>
+                <fieldset>
+                  <legend>Login</legend>
+                  <label>User ID
+                    <input type="text" placeholder="example@ewu.edu">
+                  </label>
+                  <label>Password
+                    <input type="password" placeholder="password">
+                  </label>
+                  <div class="small-6 columns gobutton">
+                    <a href="#" class="button postfix">Go</a>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      <!-- End Login Form -->
    
-    
+    <!-- End Page Wrap -->
+    </div>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
