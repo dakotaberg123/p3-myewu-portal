@@ -1,10 +1,34 @@
+/*colors 
+blue rgba(82,158,242,1)
+grey rgba(99,100,102,1)
+*/
+
+.searchbutton {
+  background: rgba(82,158,242,1);
+}
+
 .pagewrap {
   width: 960px;
   margin: 0 auto;
 }
 
-.gobutton {
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: rgba(82,158,242,1);
+}
+
+.nav-bar,
+.top-bar,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section .has-form {
+  background: rgba(99,100,102,1);
+}
+
+.gobuttonbox {
   margin: 0 0 0 25%;
+}
+
+.gobutton {
+  background: rgba(82,158,242,1);
 }
 
 .finalgrade {
@@ -19,6 +43,11 @@
 .quarterarrows,
 .coursearrows {
   margin: 7% 0 0 8%;
+}
+
+.quarterarrowbuttons,
+.coursearrowbuttons {
+  background: rgba(82,158,242,1);
 }
 
 table {
